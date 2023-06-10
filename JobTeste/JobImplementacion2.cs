@@ -18,6 +18,7 @@ namespace JobTeste
         public Task Execute(IJobExecutionContext context)
         {
             _logger.LogInformation("Rodando: job 2 {time}",DateTime.Now);
+
             return Task.CompletedTask;
         }
     }

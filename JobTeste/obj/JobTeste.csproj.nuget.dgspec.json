@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "Quartz": {
               "target": "Package",
               "version": "[3.6.2, )"
@@ -60,6 +64,10 @@
             "Quartz.Extensions.Hosting": {
               "target": "Package",
               "version": "[3.6.2, )"
+            },
+            "log4net.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
