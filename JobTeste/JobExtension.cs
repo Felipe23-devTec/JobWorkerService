@@ -16,7 +16,7 @@ namespace JobTeste
         {
             //Pegar nome da classe - mesmo nome da chave do config
             string nomeJob = typeof(T).Name;
-
+      
             var configKey = $"Quartz:{nomeJob}";
             //Site para configurar tempo de execucao de um cron job https://www.vivaolinux.com.br/artigo/Como-executar-tarefas-a-cada-5-10-ou-15-minutos
             //https://crontab.guru/#5_3_*_*_*

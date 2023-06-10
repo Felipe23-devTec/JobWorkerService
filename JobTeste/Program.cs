@@ -9,6 +9,7 @@ IHost host = Host.CreateDefaultBuilder(args)
         {
             q.UseMicrosoftDependencyInjectionScopedJobFactory();
             q.AddJobAndTrigger<JobImplementacion>(hostContext.Configuration);
+            q.AddJobAndTrigger<JobImplementacion2>(hostContext.Configuration);
         });
         services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);
     })
