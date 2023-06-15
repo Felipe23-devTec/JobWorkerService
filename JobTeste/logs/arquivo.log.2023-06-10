@@ -1,0 +1,37 @@
+2023-06-10 11:14:54,953  INFO Quartz.Core.SchedulerSignalerImpl.<GetLogger>b__0 [0] - MESSAGE: Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+ 2023-06-10 11:14:55,040  INFO Quartz.Core.QuartzScheduler.<GetLogger>b__0 [0] - MESSAGE: Quartz Scheduler created
+ 2023-06-10 11:14:55,044  INFO Quartz.Core.QuartzScheduler.<GetLogger>b__0 [0] - MESSAGE: JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+ 2023-06-10 11:14:55,049  INFO Quartz.Simpl.RAMJobStore.<GetLogger>b__0 [0] - MESSAGE: RAMJobStore initialized.
+ 2023-06-10 11:14:55,053  INFO Quartz.Impl.StdSchedulerFactory.<GetLogger>b__0 [0] - MESSAGE: Quartz Scheduler 3.6.2.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+ 2023-06-10 11:14:55,062  INFO Quartz.Impl.StdSchedulerFactory.<GetLogger>b__0 [0] - MESSAGE: Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+ 2023-06-10 11:14:55,066  INFO Quartz.Impl.StdSchedulerFactory.<GetLogger>b__0 [0] - MESSAGE: Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+ 2023-06-10 11:14:55,154  INFO Quartz.ContainerConfigurationProcessor.MoveNext [0] - MESSAGE: Adding 2 jobs, 2 triggers.
+ 2023-06-10 11:14:55,164  INFO Quartz.ContainerConfigurationProcessor.MoveNext [0] - MESSAGE: Adding job: DEFAULT.JobImplementacion
+ 2023-06-10 11:14:55,183 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Scheduling job: DEFAULT.JobImplementacion with trigger: DEFAULT.JobImplementacion-trigger
+ 2023-06-10 11:14:55,226  INFO Quartz.ContainerConfigurationProcessor.MoveNext [0] - MESSAGE: Adding job: DEFAULT.JobImplementacion2
+ 2023-06-10 11:14:55,226 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Scheduling job: DEFAULT.JobImplementacion2 with trigger: DEFAULT.JobImplementacion2-trigger
+ 2023-06-10 11:14:55,228 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Rescheduling job: DEFAULT.JobImplementacion with updated trigger: DEFAULT.JobImplementacion-trigger
+ 2023-06-10 11:14:55,238 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Rescheduling job: DEFAULT.JobImplementacion2 with updated trigger: DEFAULT.JobImplementacion2-trigger
+ 2023-06-10 11:14:55,249  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-10 11:14:55,256  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2023-06-10 11:14:55,258  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\felip\Documents\Desenvolvimento Web\Desenvolvimento Web\Aprendendo C#\JobTeste\JobTeste
+ 2023-06-10 11:14:55,262  INFO Quartz.Core.QuartzScheduler.<GetLogger>b__0 [0] - MESSAGE: Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+ 2023-06-10 11:15:23,854  INFO Quartz.Core.SchedulerSignalerImpl.<GetLogger>b__0 [0] - MESSAGE: Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+ 2023-06-10 11:15:23,901  INFO Quartz.Core.QuartzScheduler.<GetLogger>b__0 [0] - MESSAGE: Quartz Scheduler created
+ 2023-06-10 11:15:23,904  INFO Quartz.Core.QuartzScheduler.<GetLogger>b__0 [0] - MESSAGE: JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+ 2023-06-10 11:15:23,907  INFO Quartz.Simpl.RAMJobStore.<GetLogger>b__0 [0] - MESSAGE: RAMJobStore initialized.
+ 2023-06-10 11:15:23,912  INFO Quartz.Impl.StdSchedulerFactory.<GetLogger>b__0 [0] - MESSAGE: Quartz Scheduler 3.6.2.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+ 2023-06-10 11:15:23,915  INFO Quartz.Impl.StdSchedulerFactory.<GetLogger>b__0 [0] - MESSAGE: Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+ 2023-06-10 11:15:23,918  INFO Quartz.Impl.StdSchedulerFactory.<GetLogger>b__0 [0] - MESSAGE: Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+ 2023-06-10 11:15:23,952  INFO Quartz.ContainerConfigurationProcessor.MoveNext [0] - MESSAGE: Adding 2 jobs, 2 triggers.
+ 2023-06-10 11:15:23,957  INFO Quartz.ContainerConfigurationProcessor.MoveNext [0] - MESSAGE: Adding job: DEFAULT.JobImplementacion
+ 2023-06-10 11:15:23,971 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Scheduling job: DEFAULT.JobImplementacion with trigger: DEFAULT.JobImplementacion-trigger
+ 2023-06-10 11:15:24,018  INFO Quartz.ContainerConfigurationProcessor.MoveNext [0] - MESSAGE: Adding job: DEFAULT.JobImplementacion2
+ 2023-06-10 11:15:24,019 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Scheduling job: DEFAULT.JobImplementacion2 with trigger: DEFAULT.JobImplementacion2-trigger
+ 2023-06-10 11:15:24,021 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Rescheduling job: DEFAULT.JobImplementacion with updated trigger: DEFAULT.JobImplementacion-trigger
+ 2023-06-10 11:15:24,035 DEBUG Quartz.ContainerConfigurationProcessor.? [?] - MESSAGE: Rescheduling job: DEFAULT.JobImplementacion2 with updated trigger: DEFAULT.JobImplementacion2-trigger
+ 2023-06-10 11:15:24,045  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Application started. Press Ctrl+C to shut down.
+ 2023-06-10 11:15:24,054  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Hosting environment: Development
+ 2023-06-10 11:15:24,058  INFO Microsoft.Hosting.Lifetime.OnApplicationStarted [0] - MESSAGE: Content root path: C:\Users\felip\Documents\Desenvolvimento Web\Desenvolvimento Web\Aprendendo C#\JobTeste\JobTeste
+ 2023-06-10 11:15:24,063  INFO Quartz.Core.QuartzScheduler.<GetLogger>b__0 [0] - MESSAGE: Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+ 
